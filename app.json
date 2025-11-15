@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Chat Lmtna",
-    "slug": "chat-lmtna",
+    "name": "شات لمتنا",
+    "slug": "chat-lemtna",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.chatlemtna"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.yourcompany.chatlemtna"
     },
     "web": {
       "favicon": "./assets/icon.png"
